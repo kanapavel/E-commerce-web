@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home3</title>
+    <link rel="stylesheet" href="styles/home3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="check">
+        <div class="header-sect2">
+            <div class="logo">
+                <div class="btn-one">
+                    <label for="check">
+                        <img src="img-acceuil/icons/menu-principal.png" alt="">
+                    </label>
+                </div>
+                <a href="index.html"><img src="img-acceuil/freshcart-logo.svg" alt="logo"></a>
+            </div>
+            <div class="searche">
+                <div class="search-bar">
+                    <input type="search" placeholder="Search for products">
+                </div>
+            </div>
+            <div class="head-icon">
+                <a href="mywishlist.html" class="hide"><img src="img-acceuil/icons/coeur.png" alt="heart" width="24px">
+                    <div class="rond1">5</div>
+                </a>
+                <a href="#popup-location" class="hide"><img src="img-acceuil/icons/localisation.png" alt="location" width="24px"></a>
+                <a href="#signup"><img src="img-acceuil/icons/personne.png" alt="person"></a>
+                <a href="#shop-cart"><img src="img-acceuil/icons/carte.png" alt="bag">
+                    <div class="rond2">1</div>
+                </a>
+            </div>
+        </div>
+        <!-- ------------------------boutton umberger------------------ -->
+        <div class="slide-bar">
+            <div class="slide-bar-logo">
+                <a href="index.html"><img src="img-acceuil/freshcart-logo.svg" alt="logo"></a>
+                <div class="btn-two">
+                    <label for="check">
+                        <img src="img-acceuil/icons/close.png" alt="" id="cancel">
+                    </label>
+                </div> 
+            </div>
+            <div class="head-slide-bar">
+                <div class="search-bar">
+                    <input type="search" placeholder="Search for products">
+                </div>
+                <a href="#popup-location" id="locate"><img src="img-acceuil/icons/localisation.png" alt="location" width="15px">Pick Location</a>
+                <a href="#" id="all-depart"><img src="img-acceuil/icons/menu.png" alt="" class="btn-menu" width="15px">All Departments</a>
+            </div>
+            <div class="slide-nav">
+                <div class="slide-nav-contents">
+                    <div class="slide-categories">
+                        <ul>
+                            <li class="nav-links"><a href="#">Home<img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="index.html">Home 1</a></li>
+                                        <li><a href="home2.html">Home 2</a></li>
+                                        <li><a href="home3.html">Home 3</a></li>
+                                        <li><a href="home4.html">Home 4</a></li>
+                                        <li><a href="home5.html">Home 5</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-links"><a href="#">Shop<img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="shop-grid.html">Shop Grid - Filter</a></li>
+                                        <li><a href="shop-grid.html">Shop Grid - 3 column</a></li>
+                                        <li><a href="shop-grid.html">Shop List - Filter</a></li>
+                                        <li><a href="#">Shop - Filter</a></li>
+                                        <li><a href="#">Shop Wide</a></li>
+                                        <li><a href="#">Shop Single</a></li>
+                                        <li><a href="#">Shop Single v2</a></li>
+                                        <li><a href="#">Shop Wishlist</a></li>
+                                        <li><a href="#">Shop Cart</a></li>
+                                        <li><a href="#">Shop Checkout</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-links"><a href="#">Stores <img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="storeList.html">Store List</a></li>
+                                        <li><a href="storeList.html">Store Grid</a></li>
+                                        <li><a href="storeList.html">Store Single</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-links"><a href="#">Mega Menu<img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li class="nav-links"><a href="#" class="a1">Dairy, Bread & Eggs <img src="img-acceuil/icons/angle-droit.png" alt=""></a>
+                                            <div class="sub-menu-3">
+                                                <ul>
+                                                    <li><a href="#">Milk Drinks</a></li>
+                                                    <li><a href="#">Curd Yogurt</a></li>
+                                                    <li><a href="#">Eggs</a></li>
+                                                    <li><a href="#">Buns & Bakery</a></li>
+                                                    <li><a href="#">Cheese</a></li>
+                                                    <li><a href="#">Condensed Milk</a></li>
+                                                    <li><a href="#">Dairy Products</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="nav-links"><a href="#">Vegetables & Fruits <img src="img-acceuil/icons/angle-droit.png" alt=""></a>
+                                            <div class="sub-menu-3">
+                                                <ul>
+                                                    <li><a href="#">Vegetables</a></li>
+                                                    <li><a href="#">Fruits</a></li>
+                                                    <li><a href="#">Exotics & Premium</a></li>
+                                                    <li><a href="#">Fresh Sprouts</a></li>
+                                                    <li><a href="#">Frozen Veg</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="nav-links"><a href="#">Cold Drinks & Juices <img src="img-acceuil/icons/angle-droit.png" alt=""></a>
+                                            <div class="sub-menu-3">
+                                                <ul>
+                                                    <li><a href="#">Soft Drinks</a></li>
+                                                    <li><a href="#">Fruits Juices</a></li>
+                                                    <li><a href="#">Coldpress</a></li>
+                                                    <li><a href="#">Soda & Mixers</a></li>
+                                                    <li><a href="#">Milk Drinks</a></li>
+                                                    <li><a href="#">Health Drinks</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-links"><a href="#">Pages<img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="#">Batter</a></li>
+                                        <li><a href="#">Breakfasts Cereal</a></li>
+                                        <li><a href="#">Noodles,Pasta & Soup</a></li>
+                                        <li><a href="#">Frozen Non-Veg Snackss</a></li>
+                                        <li><a href="#">Frozen Veg</a></li>
+                                        <li><a href="#">Vermicelli</a></li>
+                                        <li><a href="#">Instant Mixes</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-links"><a href="#">Account<img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="#">Cookies</a></li>
+                                        <li><a href="#">Glucose & Marie</a></li>
+                                        <li><a href="#">Sweet & Salty</a></li>
+                                        <li><a href="#">Healthy & Digestive</a></li>
+                                        <li><a href="#">Cream Biscuits</a></li>
+                                        <li><a href="#">Rusks & Wafers</a></li>
+                                        <li><a href="#">Cakes & Rolls</a></li>
+                                        <li><a href="#">Buns & Bakery</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-links"><a href="dashboard.html">Dashboard</a></li>
+                            <li class="nav-links"><a href="documentation.html">Docs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================slide shop cart ==================== -->
+        <div class="slide-shop-cart-inner" id="shop-cart">
+            <div class="slide-shop-cart">
+                <div class="head-slide-shop-cart">
+                    <div>
+                        <h3>Shop Cart</h3>
+                        <small>Location in 382480</small>
+                    </div>
+                    <a href="#">&times;</a>
+                </div>
+                <div class="contenair-slide-shop-cart">
+                    <div class="alert">
+                        <p>You've got FREE delivery. Start <a href="#">Checkout Now!</a></p>
+                    </div>
+                    <div class="element-shop-cart">
+                        <div class="flex">
+                            <img src="img-acceuil/product-img-1.png" alt="" width="64px">
+                            <div>
+                                <h5>Haldiram's Sev Bhujia</h5>
+                                <small>.98 / Ib</small>
+                                <div>
+                                    <a href="#"> <img src="img-acceuil/icons/delete.png" alt="" width="14px"> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-number">
+                            <span class="moins">-</span>
+                            <span class="number">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                        <div class="prices"> <span>$5.00</span></div>
+                    </div>
+                    <div class="element-shop-cart2">
+                        <div class="flex">
+                            <img src="img-acceuil/product-img-2.png" alt="" width="64px">
+                            <div>
+                                <h5>NutriChoice Digestive</h5>
+                                <small>250g</small>
+                                <div>
+                                    <a href="#"> <img src="img-acceuil/icons/delete.png" alt="" width="14px"> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-number">
+                            <span class="moins">-</span>
+                            <span class="number">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                        <div class="prices">
+                             <span class="red">$20.00</span>
+                             <span class="underline">$26.00</span>
+                        </div>
+                    </div>
+                    <div class="element-shop-cart2">
+                        <div class="flex">
+                            <img src="img-acceuil/product-img-3.png" alt="" width="64px">
+                            <div>
+                                <h5>Cadbury 5 Star Chocolate</h5>
+                                <small>1 kg</small>
+                                <div>
+                                    <a href="#"> <img src="img-acceuil/icons/delete.png" alt="" width="14px"> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-number">
+                            <span class="moins">-</span>
+                            <span class="number">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                        <div class="prices">
+                            <span>$15.00</span>
+                            <span class="underline">$20.00</span>
+                        </div>
+                    </div>
+                    <div class="element-shop-cart2">
+                        <div class="flex">
+                            <img src="img-acceuil/product-img-4.png" alt="" width="64px">
+                            <div>
+                                <h5>Onion Flavour Potato</h5>
+                                <small>250g</small>
+                                <div>
+                                    <a href="#"> <img src="img-acceuil/icons/delete.png" alt="" width="14px"> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-number">
+                            <span class="moins">-</span>
+                            <span class="number">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                        <div class="prices">
+                            <span>$15.00</span>
+                            <span class="underline">$20.00</span>
+                        </div>
+                    </div>
+                    <div class="element-shop-cart2">
+                        <div class="flex">
+                            <img src="img-acceuil/product-img-5.png" alt="" width="64px">
+                            <div>
+                                <h5>Salted Instant Popcorn</h5>
+                                <small>100g</small>
+                                <div>
+                                    <a href="#"> <img src="img-acceuil/icons/delete.png" alt="" width="14px"> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-number">
+                            <span class="moins">-</span>
+                            <span class="number">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                        <div class="prices"> 
+                            <span>$15.00</span>
+                            <span class="underline">$25.00</span>
+                        </div>
+                    </div>
+                    <div class="links-slide-shop">
+                        <a href="#" class="green">Continue Shopping</a>
+                        <a href="#" class="dark">Update Cart</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+        
+    </header>
+    <main>
+       <section>
+            <div class="home3-head">
+                <div class="contenair-element-left">
+                    <div class="element-left-1">
+                        <div class="card-1">
+                            <li>Exclusive Offer <Span>15%</Span></li>
+                            <h1>Best Online Deals, Free Stuff</h1>
+                            <p>Only on this week...Don't miss</p>
+                            <small>start from <span>$5.99</span></small>
+                            <div>
+                                <a href="#">Get Best Deal <img src="img-acceuil/icons/la-fleche.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element-left-2">
+                        <div class="card-2">
+                            <li>Exclusive Offer <Span>35%</Span></li>
+                            <h1>Chocozay Wafer-rolls Deal</h1>
+                            <p>Only on this week...Don't miss</p>
+                            <small>start from <span>$34.99</span></small>
+                            <div>
+                                <a href="#">Shop Deals Now <img src="img-acceuil/icons/la-fleche.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element-left-3">
+                        <div class="card-3">
+                            <li>Exclusive Offer <Span>20%</Span></li>
+                            <h1>Best Online Deals, Free Stuff</h1>
+                            <p>Only on this week...Don't miss</p>
+                            <small>start from <span>$5.99</span></small>
+                            <div>
+                                <a href="#">Get Best Deal <img src="img-acceuil/icons/la-fleche.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element-left-1">
+                        <div class="card-1">
+                            <li>Exclusive Offer <Span>15%</Span></li>
+                            <h1>Best Online Deals, Free Stuff</h1>
+                            <p>Only on this week...Don't miss</p>
+                            <small>start from <span>$5.99</span></small>
+                            <div>
+                                <a href="#">Get Best Deal <img src="img-acceuil/icons/la-fleche.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="element-right">
+                    <div class="contenair-feature2">
+                        <div class="card-feature2">
+                            <h1>10% cashback on <br>personal care </h1>
+                            <p>Max cashback: $12 <br><span>Code: CARE12</span></p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="contenair-feature3">
+                        <div class="card-feature3">
+                            <h1>Says yes to <br>season's fresh </h1>
+                            <p>Refresh your day <br>the fruity way</p>
+                            <a href="#">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </section>
+       <section class="shop-category">
+        <h1>Shop Popular Categories</h1>
+        <div class="contenair-shop-categorie">
+            <div class="box1">
+                <div class="box1-img">
+                    <a href="#"><img src="img-acceuil/category-dairy-bread-eggs.png" alt=""></a>
+                </div>
+                <p>Dairy Bread & Eggs</p>
+            </div>
+            <div class="box1">
+                <div class="box1-img">
+                    <a href="#"><img src="img-home3/basket-full-of-vegetables.png" alt=""></a>
+                </div>
+                <p>Fruits & Vegetables</p>
+            </div>
+            <div class="box1">
+                <div class="box1-img">
+                    <a href="#"><img src="img-acceuil/category-snack-munchies.png" alt=""></a>
+                </div>
+                <p>Snacks & Munchies</p>
+            </div>
+            <div class="box1">
+                <div class="box1-img">
+                    <a href="#"><img src="img-acceuil/category-bakery-biscuits.png" alt=""></a>
+                </div>
+                <p>Bakery & Biscuits</p>
+            </div>
+            <div class="box1">
+                <div class="box1-img">
+                    <a href="#"><img src="img-acceuil/category-instant-food.png" alt=""></a>
+                </div>
+                <p>Instant Food</p>
+            </div>
+            <div class="box1">
+                <div class="box1-img">
+                    <a href="#"><img src="img-acceuil/category-tea-coffee-drinks.png" alt=""></a>
+                </div>
+                <p>Tea, Coffee & Drinks</p>
+            </div>
+            <div class="box1">
+                <div class="box1-img">
+                    <a href="#"><img src="img-acceuil/category-dairy-bread-eggs.png" alt=""></a>
+                </div>
+                <p>Dairy Bread & Eggs</p>
+            </div>
+            <div class="box1">
+                <div class="box1-img">
+                    <a href="#"><img src="img-acceuil/category-chicken-meat-fish.jpg" alt=""></a>
+                </div>
+                <p>Chicken, Meat & Fish</p>
+            </div>
+            <div class="box1">
+                <div class="box1-img">
+                    <a href="#"><img src="img-acceuil/category-baby-care.png" alt=""></a>
+                </div>
+                <p>Baby Care</p>
+            </div>
+            <div class="box1">
+                <div class="box1-img">
+                    <a href="#"><img src="img-acceuil/category-cleaning-essentials.png" alt=""></a>
+                </div>
+                <p>Cleaning Essentials</p>
+            </div>
+            <div class="box1">
+                <div class="box1-img">
+                    <a href="#"><img src="img-acceuil/category-pet-care.png" alt=""></a>
+                </div>
+                <p>Pet Care</p>
+            </div>
+            <div class="box1">
+                <div class="box1-img">
+                    <a href="#"><img src="img-acceuil/category-atta-rice-dal.png" alt=""></a>
+                </div>
+                <p>Atta, Rice & Dal</p>
+            </div>
+        </div>
+       </section>
+        <section class="new-products">
+            <div class="head-categorie">
+                <div class="box-text">
+                    <h1>New Products</h1>
+                    <p>Discover a wide variety of Munchies</p>
+                </div>  
+                <div class="box-btn-categorie">
+                    <li><a href="#" id="btn-a">Fruits & Vegetables</a></li>
+                    <li><a href="#">Snacks Munchies</a></li>
+                    <li><a href="#">Backery & Biscuits</a></li>
+                    <li><a href="#">Tea, Coffee & Drinks</a></li>
+                    <li><a href="#">Cold Drinks & Juices</a></li>
+                </div>
+            </div>
+            <div class="contenair-popular-product">
+                <div class="box-contenair1">
+                    <div class="box11">
+                        <div class="box-img1">
+                            <a href="#"><img src="img-acceuil/product-img-1.png" alt=""></a>
+                        </div>
+                        <div class="box-content1">
+                            <a href="#">Haldiram's Sev Bhujia</a>
+                            <div class="etoiles">
+                                <div>
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/evaluation.png" alt="">
+                                </div>
+                                <li>4.5(149)</li>
+                            </div>
+                        </div>
+                        <div class="box-prices1">
+                            <p class="text-danger">$18 <span>$24</span></p>
+                            <span class="text-upper">IN STOCK</span>
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                            <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                            <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                        </div>
+                        <a href="#">Add to Cart</a>
+                        <span>Sale</span>
+                    </div>
+                    <div class="box11">
+                        <div class="box-img1">
+                            <a href="#"><img src="img-acceuil/product-img-2.png" alt=""></a>
+                        </div>
+                        <div class="box-content1">
+                            <a href="#"> Britannia NutriChoice Digestive Biscuits</a>
+                            <div class="etoiles">
+                                <div>
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/evaluation.png" alt="">
+                                </div>
+                                <li>4.4(3,149)</li>
+                            </div>
+                        </div>
+                        <div class="box-prices1">
+                            <p>$15</p>
+                            <span class="text-upper">IN STOCK</span>
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                            <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                            <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                        </div>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                    <div class="box11">
+                        <div class="box-img1">
+                            <a href="#"><img src="img-acceuil/product-img-3.png" alt=""></a>
+                        </div>
+                        <div class="box-content1">
+                            <a href="#">Cadbury 5 Star Chocolate</a>
+                            <div class="etoiles">
+                                <div>
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/evaluation.png" alt="">
+                                </div>
+                                <li>4.7(1,130)</li>
+                            </div>
+                        </div>
+                        <div class="box-prices1">
+                            <p>$32</p>
+                            <span class="text-upper">IN STOCK</span>
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                            <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                            <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                        </div>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                    <div class="box11">
+                        <div class="box-img1">
+                            <a href="#"><img src="img-acceuil/product-img-4.png" alt=""></a>
+                        </div>
+                        <div class="box-content1">
+                            <a href="#">Onion Flavour Potato</a>
+                            <div class="etoiles">
+                                <div>
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/evaluation.png" alt="">
+                                </div>
+                                <li>4.5(140)</li>
+                            </div>
+                        </div>
+                        <div class="box-prices1">
+                            <p class="text-danger">$12 <span>$18</span></p>
+                            <span class="text-upper">IN STOCK</span>
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                            <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                            <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                        </div>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                    <div class="box11">
+                        <div class="box-img1">
+                            <a href="#"><img src="img-acceuil/product-img-5.png" alt=""></a>
+                        </div>
+                        <div class="box-content1">
+                            <a href="#">Salted Instant Popcorn</a>
+                            <div class="etoiles">
+                                <div>
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/evaluation.png" alt="">
+                                </div>
+                                <li>4.5(212)</li>
+                            </div>
+                        </div>
+                        <div class="box-prices1">
+                            <p class="text-danger">$40 <span>$65</span></p>
+                            <span class="text-upper">IN STOCK</span>
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                            <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                            <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                        </div>
+                        <a href="#">Add to Cart</a>
+                        <span class="jaune">14%</span>
+                    </div>
+                    <div class="box11">
+                        <div class="box-img1">
+                            <a href="#"><img src="img-acceuil/product-img-6.png" alt=""></a>
+                        </div>
+                        <div class="box-content1">
+                            <a href="#">Epigamia Blueberry Greek Yogurt, 90g</a>
+                            <div class="etoiles">
+                                <div>
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/evaluation.png" alt="">
+                                </div>
+                                <li>4.4(694)</li>
+                            </div>
+                        </div>
+                        <div class="box-prices1">
+                            <p>$17</p>
+                            <span class="text-upper">IN STOCK</span>
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                            <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                            <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                        </div>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                    <div class="box11">
+                        <div class="box-img1">
+                            <a href="#"><img src="img-acceuil/product-img-8.png" alt=""></a>
+                        </div>
+                        <div class="box-content1">
+                            <a href="#">Kellogg's Special K Original Cereal</a>
+                            <div class="etoiles">
+                                <div>
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/evaluation.png" alt="">
+                                </div>
+                                <li>4.7(1130)</li>
+                            </div>
+                        </div>
+                        <div class="box-prices1">
+                            <p class="text-danger">$25 <span>28</span></p>
+                            <span class="text-upper">IN STOCK</span>
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                            <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                            <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                        </div>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                    <div class="box11">
+                        <div class="box-img1">
+                            <a href="#"><img src="img-acceuil/product-img-9.png" alt=""></a>
+                        </div>
+                        <div class="box-content1">
+                            <a href="#">Slurrp Farm No Maida Millet Pancake Mix</a>
+                            <div class="etoiles">
+                                <div>
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/evaluation.png" alt="">
+                                </div>
+                                <li>4.5(212)</li>
+                            </div>
+                        </div>
+                        <div class="box-prices1">
+                            <p class="text-danger">$34 <span>$38</span></p>
+                            <span class="text-upper">IN STOCK</span>
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                            <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                            <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                        </div>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                    <div class="box11">
+                        <div class="box-img1">
+                            <a href="#"><img src="img-acceuil/product-img-2.png" alt=""></a>
+                        </div>
+                        <div class="box-content1">
+                            <a href="#"> Britannia NutriChoice Digestive Biscuits</a>
+                            <div class="etoiles">
+                                <div>
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/evaluation.png" alt="">
+                                </div>
+                                <li>4.4(3,149)</li>
+                            </div>
+                        </div>
+                        <div class="box-prices1">
+                            <p>$15</p>
+                            <span class="text-upper">IN STOCK</span>
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                            <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                            <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                        </div>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                    <div class="box11">
+                        <div class="box-img1">
+                            <a href="#"><img src="img-acceuil/product-img-3.png" alt=""></a>
+                        </div>
+                        <div class="box-content1">
+                            <a href="#">Cadbury 5 Star Chocolate</a>
+                            <div class="etoiles">
+                                <div>
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/etoiles.png" alt="">
+                                    <img src="img-acceuil/icons/evaluation.png" alt="">
+                                </div>
+                                <li>4.7(1,130)</li>
+                            </div>
+                        </div>
+                        <div class="box-prices1">
+                            <p>$32</p>
+                            <span class="text-upper">IN STOCK</span>
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                            <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                            <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                        </div>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sect-4">
+            <div>
+                <div class="elmt1">
+                    <h2>One Stop Grocery Shop</h2>
+                    <p>Shopping for your furry friend? Find food,treats and more and easy spot</p>
+                    <a href="#">Get Discount on Share</a>
+                </div>
+                <div class="img">
+                    <img src="img-home3/store-graphics.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="sect-5">
+            <div class="head-categorie">
+                <div>
+                    <h1>Special Offers of the View All Weeks!</h1>
+                    <p>Get exclusive ongoing offers, deals, and discount codes of shopping</p>
+                </div>  
+                <div class="box-btn-categorie">
+                    <a href="#">View All <img src="img-acceuil/icons/angle-droit.png" alt=""></a>
+                </div>
+            </div>
+            <div class="box-contenair2">
+                <div class="box12">
+                    <div class="box-img2">
+                        <a href="#"><img src="img-acceuil/product-img-2.png" alt=""></a>
+                    </div>
+                    <div class="box-content2">
+                        <p>$15</p>
+                        <a href="#">Britannia NutriChoice Digestive Biscuits</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.4(3,149)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices2">
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="skill-bar-1"></div>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <small>The available products: <span>12</span></small>
+                    <span class="blue">25%</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <div class="box12">
+                    <div class="box-img2">
+                        <a href="#"><img src="img-acceuil/product-img-3.png" alt=""></a>
+                    </div>
+                    <div class="box-content2">
+                        <p>$32</p>
+                        <a href="#">Cadbury 5 star chocolate</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.7(1,130)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices2">
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="skill-bar-2"></div>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <small>The available products: <span>34</span></small>
+                    <span class="red-text">Buy 1 Get $4.00 Off</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <div class="box12">
+                    <div class="box-img2">
+                        <a href="#"><img src="img-acceuil/product-img-8.png" alt=""></a>
+                    </div>
+                    <div class="box-content2">
+                        <p class="text-danger">$25 <span class="surligne">$28</span></p>
+                        <a href="#">Kellogg's Special K Original Cereal</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.7(1,130)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices2">
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="skill-bar-3"></div>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <small>The available products: <span>8</span></small>
+                    <span class="blue">22%</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <div class="box12">
+                    <div class="box-img2">
+                        <a href="#"><img src="img-acceuil/product-img-9.png" alt=""></a>
+                    </div>
+                    <div class="box-content2">
+                        <p class="text-danger">$34 <span class="surligne">$38</span></p>
+                        <a href="#">Slurrp Farm No Maida Millet Pancake Mix</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.5(212)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices2">
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="skill-bar-4"></div>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <small>The available products: <span>67</span></small>
+                    <span class="blue">16%</span>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <div class="box12">
+                    <div class="box-img2">
+                        <a href="#"><img src="img-acceuil/product-img-1.png" alt=""></a>
+                    </div>
+                    <div class="box-content2">
+                        <p class="text-danger">$22 <span class="surligne">$29</span></p>
+                        <a href="#">Amul Butter - 500g</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.3(68)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices2">
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="skill-bar-5"></div>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <small>The available products: <span>44</span></small>
+                    <a href="#">Add to Cart</a>
+                </div>
+                
+            </div>
+        </section>
+        <section class="sect-6">
+            <div class="head-categorie1">
+                <div>
+                    <h1>Bestsellers In Your Area</h1>
+                    <p>Find the bestseller products in your area with discount.</p>
+                </div>  
+                <div class="box-btn-categorie1">
+                    <img src="img-acceuil/icons/angle-gauche.png" alt="" class="btn-categorie">
+                    <img src="img-acceuil/icons/angle-droit.png" alt="" class="btn-categorie">
+                </div>
+            </div>
+            <div class="box-contenair6">
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-1.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#">Haldiram's Sev Bhujia</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.5(149)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p class="text-danger">$18 <span>$24</span></p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                    <span>Sale</span>
+                </div>
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-2.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#"> Britannia NutriChoice Digestive Biscuits</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.4(3,149)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p>$15</p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-3.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#">Cadbury 5 Star Chocolate</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.7(1,130)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p>$32</p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-4.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#">Onion Flavour Potato</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.5(140)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p class="text-danger">$12 <span>$18</span></p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-5.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#">Salted Instant Popcorn</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.5(212)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p class="text-danger">$40 <span>$65</span></p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                    <span class="jaune">14%</span>
+                </div>
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-6.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#">Epigamia Blueberry Greek Yogurt, 90g</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.4(694)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p>$17</p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-8.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#">Kellogg's Special K Original Cereal</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.7(1130)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p class="text-danger">$25 <span>28</span></p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-9.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#">Slurrp Farm No Maida Millet Pancake Mix</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.5(212)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p class="text-danger">$34 <span>$38</span></p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-2.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#"> Britannia NutriChoice Digestive Biscuits</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.4(3,149)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p>$15</p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-3.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#">Cadbury 5 Star Chocolate</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.7(1,130)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p>$32</p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <!-- -------------code repeter ------------ -->
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-1.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#">Haldiram's Sev Bhujia</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.5(149)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p class="text-danger">$18 <span>$24</span></p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                    <span>Sale</span>
+                </div>
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-2.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#"> Britannia NutriChoice Digestive Biscuits</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.4(3,149)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p>$15</p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                </div>
+                <div class="box11">
+                    <div class="box-img1">
+                        <a href="#"><img src="img-acceuil/product-img-3.png" alt=""></a>
+                    </div>
+                    <div class="box-content1">
+                        <a href="#">Cadbury 5 Star Chocolate</a>
+                        <div class="etoiles">
+                            <div>
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/etoiles.png" alt="">
+                                <img src="img-acceuil/icons/evaluation.png" alt="">
+                            </div>
+                            <li>4.7(1,130)</li>
+                        </div>
+                    </div>
+                    <div class="box-prices1">
+                        <p>$32</p>
+                        <span class="text-upper">IN STOCK</span>
+                    </div>
+                    <div class="icon-hover">
+                        <a href="#view-popup"><img src="img-acceuil/icons/oeil-ouvert.png" alt=""></a>
+                        <a href="mywishlist.html"><img src="img-acceuil/icons/heart.png" alt=""></a>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt=""></a>
+                    </div>
+                    <a href="#">Add to Cart</a>
+                </div>
+            </div>
+        </section>
+        <section class="sect-7">
+            <div class="sect-7-content">
+                <span>$30 discount for your firt order</span>
+                <h2>Get top deals, latest trends, and more.</h2>
+                <p>Join our email subscription now to get updates on promotions and coupons. </p>
+                <div>
+                    <div class="email-bar">
+                        <input type="email" placeholder="Enter Email Address">
+                    </div>
+                    <a href="#">Sign Up</a>
+                </div>
+            </div>
+            <div class="img">
+                <img src="img-home3/camping-zocco-market-1.jpg" alt="">
+            </div>
+        </section>
+    </main>
+    <!-- ============================== location popup ============================== -->
+    <div class="popup-location" id="popup-location">
+        <div class="popup-location-inner">
+            <div class="head-popup">
+                <div>
+                    <h3>Choose your Delivery Location</h3>
+                    <p>Enter your address and we will specify the offeryou area.</p>
+                </div>
+                <a href="#" class="modal-close">&times;</a>
+            </div>
+            <div class="search-bar-popup">
+                <input type="search" placeholder="Search your area">
+            </div>
+            <div class="popup-content">
+                <h5>Select Location</h5>
+                <a href="#popup-location">Clear All</a>
+            </div>
+            <div class="popup-links">
+                <div>
+                    <a href="#" class="active"> <span>Alabama</span> <span class="price">Min:$20</span> </a>
+                    <a href="#"> <span>Alaska</span> <span class="price">Min:$30</span> </a>
+                    <a href="#"> <span>Arizona</span> <span class="price">Min:$50</span> </a>
+                    <a href="#"> <span>California</span> <span class="price">Min:$29</span> </a>
+                    <a href="#"> <span>Colorado</span> <span class="price">Min:$80</span> </a>
+                    <a href="#"> <span>Florida</span> <span class="price">Min:$90</span> </a>
+                    <a href="#"> <span>Arizona</span> <span class="price">Min:$50</span> </a>
+                    <a href="#"> <span>California</span> <span class="price">Min:$29</span> </a>
+                    <a href="#"> <span>Colorado</span> <span class="price">Min:$80</span> </a>
+                    <a href="#"> <span>Florida</span> <span class="price">Min:$90</span> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================== signup popup ============================== -->
+    <div class="popup-signup" id="signup">
+        <div class="popup-signup-inner">
+            <div class="head-popup-signup">
+                <div>
+                    <h3>Sign Up</h3>
+                </div>
+                <a href="#" class="modal-close">&times;</a>
+            </div>
+            <section class="content-popup-signup">
+                <form action="" method="post">
+                    <div>
+                        <label for="name">Name</label>
+                        <div class="search-bar-popup">
+                            <input type="text" id="name" placeholder="Enter your Name" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="mail">Email address</label>
+                        <div class="search-bar-popup">
+                            <input type="email" id="mail" placeholder="Enter your Email Adress" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <div class="search-bar-popup">
+                            <input type="password" id="password" placeholder="Enter your Name" required>
+                        </div>
+                        <small>By Signup, you agree to our <a href="#">Teams of Service <small>&</small> Privacy Policy</a></small>
+                    </div>
+                    <div>
+                        <input type="submit" value="Sign Up">
+                    </div>
+                </form>
+            </section>
+            <div class="footer-popup-signup">
+                <p>Already have an account? </p>
+                <a href="#">Sign In</a>
+            </div>
+        </div>
+    </div>
+    <!-- ========================== view popup ============================== -->
+    <div class="popup-view" id="view-popup">
+        <div class="popup-view-inner">
+            <a href="#" class="modal-close">&times;</a>
+            <div class="view-left">
+                <div class="content-img">
+                    <input type="radio" name="slide" id="img1">
+                    <input type="radio" name="slide" id="img2">
+                    <input type="radio" name="slide" id="img3">
+                    <input type="radio" name="slide" id="img4">
+                    
+                    <img src="img-acceuil/product-single-img-1.jpg" alt="" class="m1">
+                    <img src="img-acceuil/product-single-img-2.jpg" alt="" class="m2">
+                    <img src="img-acceuil/product-single-img-3.jpg" alt="" class="m3">
+                    <img src="img-acceuil/product-single-img-4.jpg" alt="" class="m4">
+                </div>
+                <div class="dots">
+                    <label for="img1">
+                        <img src="img-acceuil/product-single-img-1.jpg" alt="">
+                    </label>
+                    <label for="img2">
+                        <img src="img-acceuil/product-single-img-2.jpg" alt="">
+                    </label>
+                    <label for="img3">
+                        <img src="img-acceuil/product-single-img-3.jpg" alt="">
+                    </label>
+                    <label for="img4">
+                        <img src="img-acceuil/product-single-img-4.jpg" alt="">
+                    </label>
+                </div>
+            </div>
+            <div class="view-right">
+                <a href="#">Bakery Biscuits</a>
+                <h2>Napolitanke Ljesnjak</h2>
+                <div class="view-right-range">
+                    <small>
+                        <img src="img-acceuil/icons/etoiles.png" alt="">
+                        <img src="img-acceuil/icons/etoiles.png" alt="">
+                        <img src="img-acceuil/icons/etoiles.png" alt="">
+                        <img src="img-acceuil/icons/etoiles.png" alt="">
+                        <img src="img-acceuil/icons/evaluation.png" alt="">
+                    </small>
+                    <a href="#">(30 reviews)</a>
+                </div>
+                <div class="priceview">
+                    <span class="dark">$32</span>
+                    <span class="underline">$35</span>
+                    <small>26% Off</small>
+                </div>
+                <hr>
+                <div class="btn">
+                    <button>250g</button>
+                    <button>500g</button>
+                    <button>1kg</button>
+                </div>
+                <div class="input-number">
+                    <span class="moins">-</span>
+                    <span class="number">1</span>
+                    <span class="plus">+</span>
+                </div>
+                <div class="view-links">
+                    <div>
+                        <button><img src="img-acceuil/icons/carte.png" alt="" width="19">Add to cart</button>
+                    </div>
+                    <div>
+                        <a href="#"><img src="img-acceuil/icons/exchange.png" alt="" width="16"></a>
+                        <a href="#"><img src="img-acceuil/icons/coeur.png" alt="" width="16"></a>
+                    </div>
+                </div>
+                <hr>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Product Code:</td>
+                            <td>FBB00255</td>
+                        </tr>
+                        <tr>
+                            <td>Availability:</td>
+                            <td>In Stock</td>
+                        </tr>
+                        <tr>
+                            <td>Type:</td>
+                            <td>Fruits</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping:</td>
+                            <td> <small>01 day shipping. <span>(Free pickup today)</span></small></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <section class="contenair">
+            <div class="row">
+                <div class="column1">
+                    <ul>
+                        <h4>Categories</h4>
+                        <a href="#">Vegetables & Fruits</a>
+                        <a href="#">Breakfasts & instant food</a>
+                        <a href="#">Bekery & Biscuits</a>
+                        <a href="#">Atta, rice & dal</a>
+                        <a href="#">Sauces & spreads</a>
+                        <a href="#">Organic & gourmet</a>
+                        <a href="#">Baby care</a>
+                        <a href="#">Cleaning essentials</a>
+                        <a href="#">Personal care</a>
+                    </ul>
+                </div>
+                    <div class="column1 t">
+                        <ul>
+                            <a href="#">Dairy, bread & eggs</a>
+                            <a href="#">Cold drinks & juices</a>
+                            <a href="#">Tea, coffee & drinks</a>
+                            <a href="#">Masala, oil & more</a>
+                            <a href="#">Chicken, meat & fish</a>
+                            <a href="#">Paan corner</a>
+                            <a href="#">Pharma & wellness</a>
+                            <a href="#">Home & office</a>
+                            <a href="#">Pet care</a>
+                        </ul>
+                    </div>
+                
+                <div class="column1">
+                    <ul>
+                        <h4>Get to now us</h4>
+                        <a href="#">Compagny</a>
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">Our Value</a>
+                    </ul>
+                </div>
+                <div class="column1">
+                    <ul>
+                        <h4>For Consumers</h4>
+                        <a href="#">Payments</a>
+                        <a href="#">Shipping</a>
+                        <a href="#">Products Returns</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Shop Checkout</a>
+                    </ul>
+                </div>
+                <div class="column1">
+                    <ul>
+                        <h4>Become a Shopper</h4>
+                        <a href="#">Shopper Opportunities</a>
+                        <a href="#">Become a Shopper</a>
+                        <a href="#">Earnings</a>
+                        <a href="#">Ideas & Guides</a>
+                        <a href="#">New Retailers</a>
+                    </ul>
+                </div>
+                <div class="column1">
+                    <ul>
+                        <h4>FreshCart programs</h4>
+                        <a href="#">FreshCart programs</a>
+                        <a href="#">Gift Cards</a>
+                        <a href="#">Promos & Coupons</a>
+                        <a href="#">Fresh Ads</a>
+                        <a href="#">Careers</a>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="plateforms">
+            <div class="content-plateforms">
+                <div class="Payments">
+                    <h5>Payement Partners</h5>
+                    <a href="#"><img src="img-acceuil/icons/amazon-pay.png" alt="" width="40px"></a>
+                    <a href="#"><img src="img-acceuil/icons/american-express.png" alt=""></a>
+                    <a href="#"><img src="img-acceuil/icons/business.png" alt=""></a>
+                    <a href="#"><img src="img-acceuil/icons/pay-pal.png" alt=""></a>
+                    <a href="#"><img src="img-acceuil/icons/visa.png" alt=""></a>
+                </div>
+                <div class="store-app">
+                    <h5>Get deliveries with FreshCart</h5>
+                    <div>
+                        <a href="#"><img src="img-acceuil/icons/applestore.png" alt="" width="130px"></a>
+                        <a href="#"><img src="img-acceuil/icons/btn-playstore.png" alt="" width="130px"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="copyright">
+            <div class="content-copyright">
+                <div class="foot-left">
+                    <p>&copy; 2022 - 2024 FreshCart eCommerce HTML Template.All rights reserved. Powered by <br><a href="#">Codescandy</a></p>
+                </div>
+                <div class="foot-right">
+                    <li>Follow us on</li>
+                    <a href="https://www.facebook.com" target="_blank"> <img src="img-acceuil/icons/facebook.png" alt="facebook"></a>
+                    <a href="https://www.twitter.com" target="_blank"> <img src="img-acceuil/icons/twitter.png" alt="twitter"></a>
+                    <a href="https://www.instagram.com" target="_blank"> <img src="img-acceuil/icons/instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
