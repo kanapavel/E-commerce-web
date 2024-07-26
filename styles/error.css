@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-size: 0.9em;
+    font-family: "Inter", sans-serif;
+}
+a{
+    color: #413f3fc0;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+.contenair{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 300px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 320px;
+    justify-content: space-between;
+}
+.content .card1{
+    width: 450px;
+}
+.content .card1 h1{
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+.content .card1 p{
+    font-size: 14px;
+    margin-bottom: 32px;
+    color: rgb(123, 124, 124);
+}
+.content .card1 div{
+    display: flex;
+    gap: 20px;
+}
+.content .card1 div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 16px;
+    border-radius: 6px;
+    background-color: rgb(12, 185, 12);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.content .card1 div a:hover{
+    background-color: rgb(18, 131, 18);
+}
+.content .card1 div a.bleu{
+    background-color: rgb(10, 31, 58);
+}
+.content .card1 div a.bleu:hover{
+    background-color: rgb(12, 47, 92);
+}
+.card2 img{
+    width: 380px;
+}
+/* ------------------------------------------ responsive -------------------------- */
+@media screen and (max-width:1050px) {
+    .card2 img{
+        width: 280px;
+    }
+    .content .card1{
+        width: 350px;
+    } 
+    .content .card1 h1{
+        font-size: 20px;
+    }
+    .content .card1 p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:850px) {
+   .content{
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+   }
+    .card2 img{
+        width: 100%;
+    }
+    .content .card1 h1{
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .content .card1{
+        width: 100%;
+    }
+    .content .card2{
+        width: 100%;
+    }
+    .content .card1 p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .contenair{
+        width: 85%;
+    }
+}
