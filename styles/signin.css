@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-size: 0.9em;
+    font-family: "Inter", sans-serif;
+}
+a{
+    color: #413f3fc0;
+}
+header{
+    width: 100%;
+    border-bottom: 2px solid #d8dad8;
+}
+.contenair-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    padding: 16px;
+}
+/* -------------------- section-------------------------- */
+.contenair-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+    height: 50vh;
+}
+.card-right{
+    width: 350px;
+    margin-left: 70px;
+}
+.card-right h1{
+    font-size: 20px;
+    color: #222121;
+    margin-bottom: 10px;
+}
+.card-right >p{
+    font-size: 12px;
+    color: #5e5f5e;
+    font-weight: 600;
+    margin-bottom: 46px;
+}
+.card-right .input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.password-bar, .mail-bar {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #dfdfdfc0;
+ }
+ .password-bar> input, .mail-bar >input{
+     flex: 1;
+     height: 30px;
+     border: none;
+     outline: none;
+     padding-left:5px;
+     margin-left: 10px;
+ }
+ .password-bar:active, .mail-bar:active{
+     box-shadow: 1px 1px 1px .4rem #6ef0517c;
+     border: 1px solid #19b1198a;
+ }
+ .password-bar:focus-within, .mail-bar:focus-within{
+     box-shadow: 1px 1px 1px .4rem #6ef05154;
+ }
+.sous-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.sous-content .checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sous-content label, p{
+    color: #5a5c5a;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 11px;
+}
+p>a{
+    color: #2ac208;
+}
+p>a:hover{
+    color: #27a30b;
+}
+.bouton button{
+    width: 100%;
+    padding: 10px;
+    background-color: #27a30b;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.bouton button:hover{
+    background-color: #27920f;
+    cursor: pointer;
+}
+
+
+/* ---------------------- footer ------------------------- */
+footer{
+    height: 100%;
+    background-color: #dbddd95b;
+    padding: 64px 0 0 0;
+}
+section.contenair{
+    height: 50vh;
+    width: 85%;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+h4{
+    margin-bottom: 15px;
+    color: #5e5a5ae5;
+}
+.contenair>.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    gap: 5px;
+}
+.contenair>.row .t{
+    margin-top: 34px;
+}
+
+.column1>ul{
+    display: flex;
+    flex-direction: column;
+}
+.column1>ul>a{
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+.column1>ul>a:hover{
+    color: #37b41b;
+}
+/* ----------section plateforme ---------------- */
+.plateforms{
+    height: 10vh;
+    width: 85%;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(102, 98, 98, 0.623);
+    border-top: 1px solid  rgba(102, 98, 98, 0.623);
+}
+h5{
+    font-size: 1em;
+    color: #5e5a5ae5;
+}
+.content-plateforms{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.Payments,.store-app{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Payments>a img{
+    margin: 0 10px 0 10px;
+}
+.store-app>a img{
+    margin: 0 5px 0 15px;
+}
+/* -------------- sect-copyright---------- */
+.copyright{
+    width: 85%;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.content-copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-left>p{
+    font-size: 0.8em;
+    color: #5e5f5e;
+}
+.foot-left>p a{
+    color: #2ac208;
+}
+.foot-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-right>a img{
+    filter: invert(82%) sepia(1%) saturate(1102%) hue-rotate(158deg) brightness(92%) contrast(92%);
+}
+.foot-right>a img:hover{
+    filter: invert(53%) sepia(96%) saturate(1242%) hue-rotate(77deg) brightness(109%) contrast(91%);
+}
+.foot-right>li{
+    color: #5e5f5e;
+    margin-right: 10px;
+    font-size: 0.8em;
+    cursor: default;
+}
+
+
+/* ------------------------------------ responsive ------------------------------- */
+@media screen and (max-width:950px) {
+    .contenair-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    /* -------------------- section-------------------------- */
+    .contenair-section{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+@media screen and (max-width:900px) {
+    footer{
+        padding: 20px 0;
+    }
+    section.contenair{
+        height: 100%;
+    }
+    .contenair>.row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 350px;
+        gap: 5px;
+    }
+    .content-plateforms{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .plateforms .content-plateforms >.store-app>div{
+        display: flex;
+        flex-direction: row;
+    }
+    section>.box-contenair{
+        overflow: auto;
+    }
+    .slide-shop-cart{
+        width: 100%;
+    }
+    .store-app{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .content-copyright{
+        height: 120px;
+        margin-top: 20px;
+    }
+    .slide-bar{
+        width: 100%;
+        height: 100%;
+        left: -100%;
+    }
+}
+@media screen and (max-width:780px) {
+    .contenair-section{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .contenair-header{
+        margin: 0;
+    }
+    .card-right{
+        margin: 0;
+        width: 85%;
+    }
+}
+@media screen and (max-width:488px) {
+    .contenair-header{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
