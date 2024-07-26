@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop-wishlist</title>
+    <link rel="stylesheet" href="styles/mywishlist.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="check">
+        <div class="header-sect1">
+            <p>Super Value Deals - Save more with coupons</p>
+                <li><img src="img-acceuil/icons/royaume-uni.png" alt="royaume-uni"><a href="#">English</a><img src="img-acceuil/icons/angle-vers-le-bas.png" alt="fleche-bas" class="icons">
+                    <div class="sub-menu">
+                        <ul>
+                            <li><img src="img-acceuil/icons/royaume-uni.png" alt="royaume-uni">English</li>
+                            <li><img src="img-acceuil/icons/allemagne.png" alt="allemagne">Deutsch</li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+        </div>
+        <div class="header-sect2">
+            <div class="logo">
+                <a href="index.html"><img src="img-acceuil/freshcart-logo.svg" alt="logo"></a>
+            </div>
+            <div class="search">
+                <div class="search-bar">
+                    <img src="img-acceuil/icons/loupe.png" alt="loupe">
+                    <input type="search" placeholder="Search for products">
+                </div>
+                <a href="#popup-location" class="location"><img src="img-acceuil/icons/localisation.png" alt="location" width="14px">Location</a>
+            </div>
+            <div class="head-icon">
+                <a href="mywishlist.html"><img src="img-acceuil/icons/coeur.png" alt="heart" width="24px">
+                    <div class="rond1">5</div>
+                </a>
+                <a href="#signup"><img src="img-acceuil/icons/personne.png" alt="person"></a>
+                <a href="#shop-cart"><img src="img-acceuil/icons/carte.png" alt="bag">
+                    <div class="rond2">1</div>
+                </a>
+                <div class="btn-one">
+                    <label for="check">
+                        <img src="img-acceuil/icons/menu-principal.png" alt="">
+                    </label>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li class="nav-links un"><img src="img-acceuil/icons/menu.png" alt="" class="btn-menu"><a href="#" id="all-depart">All Departments</a>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="shop-grid.html">Dairy, Bread & Eggs</a></li>
+                            <li><a href="shop-grid.html">Snacks & Munchies</a></li>
+                            <li><a href="shop-grid.html">Fruits & Vegetables</a></li>
+                            <li><a href="shop-grid.html">Cold Drinks & Juices</a></li>
+                            <li><a href="shop-grid.html">Breakfasts & Instant Food</a></li>
+                            <li><a href="shop-grid.html">Bakery & Biscuits</a></li>
+                            <li><a href="shop-grid.html">Chicken, Meat & Fish</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-links"><a href="#">Home</a><img src="img-acceuil/icons/angle-vers-le-bas.png" alt="fleche-bas" class="icons">
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="index.html">Home1</a></li>
+                            <li><a href="home2.html">Home2</a></li>
+                            <li><a href="home3.html">Home3</a></li>
+                            <li><a href="home4.html">Home4</a></li>
+                            <li><a href="home5.html">Home5</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-links"><a href="#">Shop</a><img src="img-acceuil/icons/angle-vers-le-bas.png" alt="fleche-bas" class="icons">
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="shop-grid.html">Shop Grid - Filter</a></li>
+                            <li><a href="shop-grid.html">Shop Grid - 3 column</a></li>
+                            <li><a href="shop-grid.html">Shop List - Filter</a></li>
+                            <li><a href="#">Shop - Filter</a></li>
+                            <li><a href="#">Shop Wide</a></li>
+                            <li><a href="#">Shop Single</a></li>
+                            <li><a href="#">Shop Single v2</a></li>
+                            <li><a href="#">Shop Wishlist</a></li>
+                            <li><a href="#">Shop Cart</a></li>
+                            <li><a href="#">Shop Checkout</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-links"><a href="#">Stores</a><img src="img-acceuil/icons/angle-vers-le-bas.png" alt="fleche-bas" class="icons">
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="storeList.html">Store List</a></li>
+                            <li><a href="storeList.html">Store Grid</a></li>
+                            <li><a href="storeList.html">Store Single</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-links" id="li-mega"><a href="#">Mega menu</a><img src="img-acceuil/icons/angle-vers-le-bas.png" alt="fleche-bas" class="icons">
+                    <div class="mega-div">
+                        <div class="card1">
+                            <ul>
+                                <li class="a1">Dairy, Bread & Eggs</li>
+                                <li><a href="shop-grid.html">Butter</a></li>
+                                <li><a href="shop-grid.html">Milk Drinks</a></li>
+                                <li><a href="shop-grid.html">Curd & Yogurt</a></li>
+                                <li><a href="shop-grid.html">Eggs</a></li>
+                                <li><a href="shop-grid.html">Buns & Bakery</a></li>
+                                <li><a href="shop-grid.html">Cheese</a></li>
+                                <li><a href="shop-grid.html">Condensed Milk</a></li>
+                                <li><a href="shop-grid.html">Dairy Products</a></li>
+                            </ul>
+                        </div>
+                        <div class="card1">
+                            <ul>
+                                <li class="a1">Breakfasts & Instant Food</li>
+                                <li><a href="shop-grid.html">Breakfasts Cereal</a></li>
+                                <li><a href="shop-grid.html">Noodles, Pasta & Soup</a></li>
+                                <li><a href="shop-grid.html">Frozen Veg Snacks</a></li>
+                                <li><a href="shop-grid.html">Frozen Non-Veg Snacks</a></li>
+                                <li><a href="shop-grid.html">Vermicelli</a></li>
+                                <li><a href="shop-grid.html">Instant Mixes</a></li>
+                                <li><a href="shop-grid.html">Batter</a></li>
+                                <li><a href="shop-grid.html">Fruits and Juices</a></li>
+                            </ul>
+                        </div>
+                        <div class="card1">
+                            <ul>
+                                <li class="a1">Cold Drinks & Juices</li>
+                                <li><a href="shop-grid.html">Soft Drinks</a></li>
+                                <li><a href="shop-grid.html">Fruits Juices</a></li>
+                                <li><a href="shop-grid.html">Coldpress</a></li>
+                                <li><a href="shop-grid.html">Water & Ice Cubes</a></li>
+                                <li><a href="shop-grid.html">Soda & Mixers</a></li>
+                                <li><a href="shop-grid.html">Health Drinks</a></li>
+                                <li><a href="shop-grid.html">Herbal Drinks</a></li>
+                                <li><a href="shop-grid.html">Milk Drinks</a></li>
+                            </ul>
+                        </div>
+                        <div class="card1" id="mega-card">
+                            <p>Dont miss this <br>offer today.</p>
+                            <a href="#" class="shop">Shop Now</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-links"><a href="#">Pages</a><img src="img-acceuil/icons/angle-vers-le-bas.png" alt="fleche-bas" class="icons">
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="#">Blog Single</a></li>
+                            <li><a href="#">Blog Category</a></li>
+                            <li><a href="about-us.html">About us</a></li>
+                            <li><a href="error.html">404 Error</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-links"><a href="#">Account</a><img src="img-acceuil/icons/angle-vers-le-bas.png" alt="fleche-bas" class="icons">
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="signin.html">Sign in</a></li>
+                            <li><a href="signup.html">Signup</a></li>
+                            <li><a href="forgot-pass.html">Forgot Password</a></li>
+                            <li><a href="account.html">My Account</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-links"><a href="dashboard.html">Dashboard</a></li>
+                <li class="nav-links7"><a href="#" id="doc">Docs</a>
+                    <div class="sub-menu-doc">
+                        <ul>
+                            <li><a href="documentation.html">
+                                <div>
+                                    <img src="img-acceuil/icons/icnDoc.png" alt="icon-doc" width ="22px" height="25px">
+                                    <p><b>Documentations</b><br> <span>Browse the all documentation</span></p>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div>
+                                    <img src="img-acceuil/icons/layer.png" alt="layers" width ="22px" height="25px">
+                                    <p><b>Changelog <strong>v1.3.0 </strong></b><br> <span>See What's new</span></p>
+                                </div>
+                            </a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- ------------------------boutton umberger------------------ -->
+        <div class="slide-bar">
+            <div class="slide-bar-logo">
+                <a href="index.html"><img src="img-acceuil/freshcart-logo.svg" alt="logo"></a>
+                <div class="btn-two">
+                    <label for="check">
+                        <img src="img-acceuil/icons/close.png" alt="" id="cancel">
+                    </label>
+                </div> 
+            </div>
+            <div class="head-slide-bar">
+                <div class="search-bar">
+                    <input type="search" placeholder="Search for products">
+                </div>
+                <a href="#popup-location" id="locate"><img src="img-acceuil/icons/localisation.png" alt="location" width="15px">Pick Location</a>
+                <a href="#" id="all-depart"><img src="img-acceuil/icons/menu.png" alt="" class="btn-menu" width="15px">All Departments</a>
+            </div>
+            <div class="slide-nav">
+                <div class="slide-nav-contents">
+                    <div class="slide-categories">
+                        <ul>
+                            <li class="nav-links"><a href="#">Home<img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="index.html">Home 1</a></li>
+                                        <li><a href="home2.html">Home 2</a></li>
+                                        <li><a href="home3.html">Home 3</a></li>
+                                        <li><a href="home4.html">Home 4</a></li>
+                                        <li><a href="home5.html">Home 5</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-links"><a href="#">Shop<img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="shop-grid.html">Shop Grid - Filter</a></li>
+                                        <li><a href="shop-grid.html">Shop Grid - 3 column</a></li>
+                                        <li><a href="shop-grid.html">Shop List - Filter</a></li>
+                                        <li><a href="#">Shop - Filter</a></li>
+                                        <li><a href="#">Shop Wide</a></li>
+                                        <li><a href="#">Shop Single</a></li>
+                                        <li><a href="#">Shop Single v2</a></li>
+                                        <li><a href="#">Shop Wishlist</a></li>
+                                        <li><a href="#">Shop Cart</a></li>
+                                        <li><a href="#">Shop Checkout</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-links"><a href="#">Stores <img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="storeList.html">Store List</a></li>
+                                        <li><a href="storeList.html">Store Grid</a></li>
+                                        <li><a href="storeList.html">Store Single</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-links"><a href="#">Mega Menu<img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <div class="mega-div">
+                                        <div class="card1">
+                                            <ul>
+                                                <li class="a1">Dairy, Bread & Eggs</li>
+                                                <li><a href="shop-grid.html">Butter</a></li>
+                                                <li><a href="shop-grid.html">Milk Drinks</a></li>
+                                                <li><a href="shop-grid.html">Curd & Yogurt</a></li>
+                                                <li><a href="shop-grid.html">Eggs</a></li>
+                                                <li><a href="shop-grid.html">Buns & Bakery</a></li>
+                                                <li><a href="shop-grid.html">Cheese</a></li>
+                                                <li><a href="shop-grid.html">Condensed Milk</a></li>
+                                                <li><a href="shop-grid.html">Dairy Products</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card1">
+                                            <ul>
+                                                <li class="a1">Breakfasts & Instant Food</li>
+                                                <li><a href="shop-grid.html">Breakfasts Cereal</a></li>
+                                                <li><a href="shop-grid.html">Noodles, Pasta & Soup</a></li>
+                                                <li><a href="shop-grid.html">Frozen Veg Snacks</a></li>
+                                                <li><a href="shop-grid.html">Frozen Non-Veg Snacks</a></li>
+                                                <li><a href="shop-grid.html">Vermicelli</a></li>
+                                                <li><a href="shop-grid.html">Instant Mixes</a></li>
+                                                <li><a href="shop-grid.html">Batter</a></li>
+                                                <li><a href="shop-grid.html">Fruits and Juices</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card1">
+                                            <ul>
+                                                <li class="a1">Cold Drinks & Juices</li>
+                                                <li><a href="shop-grid.html">Soft Drinks</a></li>
+                                                <li><a href="shop-grid.html">Fruits Juices</a></li>
+                                                <li><a href="shop-grid.html">Coldpress</a></li>
+                                                <li><a href="shop-grid.html">Water & Ice Cubes</a></li>
+                                                <li><a href="shop-grid.html">Soda & Mixers</a></li>
+                                                <li><a href="shop-grid.html">Health Drinks</a></li>
+                                                <li><a href="shop-grid.html">Herbal Drinks</a></li>
+                                                <li><a href="shop-grid.html">Milk Drinks</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card1" id="mega-card">
+                                            <p>Dont miss this <br>offer today.</p>
+                                            <a href="#" class="shop">Shop Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-links"><a href="#">Pages<img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="#">Blog Single</a></li>
+                                        <li><a href="#">Blog Category</a></li>
+                                        <li><a href="about-us.html">About us</a></li>
+                                        <li><a href="error.html">404 Error</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-links"><a href="#">Account<img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <ul>
+                                        <li><a href="signin.html">Sign in</a></li>
+                                        <li><a href="signup.html">Signup</a></li>
+                                        <li><a href="forgot-pass.html">Forgot Password</a></li>
+                                        <li><a href="account.html">My Account</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-links"><a href="dashboard.html">Dashboard</a></li>
+                            <li class="nav-links"><a href="#">Docs<img src="img-acceuil/icons/angle-vers-le-bas.png" alt=""></a>
+                                <div class="sub-menu-2">
+                                    <div class="sub-menu-doc">
+                                        <ul>
+                                            <li><a href="documentation.html">
+                                                <div>
+                                                    <img src="img-acceuil/icons/icnDoc.png" alt="icon-doc" width ="22px" height="25px">
+                                                    <p><b>Documentations</b><br> <span>Browse the all documentation</span></p>
+                                                </div>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <div>
+                                                    <img src="img-acceuil/icons/layer.png" alt="layers" width ="22px" height="25px">
+                                                    <p><b>Changelog <strong>v1.3.0 </strong></b><br> <span>See What's new</span></p>
+                                                </div>
+                                            </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================slide shop cart ==================== -->
+        <div class="slide-shop-cart-inner" id="shop-cart">
+            <div class="slide-shop-cart">
+                <div class="head-slide-shop-cart">
+                    <div>
+                        <h3>Shop Cart</h3>
+                        <small>Location in 382480</small>
+                    </div>
+                    <a href="#">&times;</a>
+                </div>
+                <div class="contenair-slide-shop-cart">
+                    <div class="alert">
+                        <p>You've got FREE delivery. Start <a href="#">Checkout Now!</a></p>
+                    </div>
+                    <div class="element-shop-cart">
+                        <div class="flex">
+                            <img src="img-acceuil/product-img-1.png" alt="" width="64px">
+                            <div>
+                                <h5>Haldiram's Sev Bhujia</h5>
+                                <small>.98 / Ib</small>
+                                <div>
+                                    <a href="#"> <img src="img-acceuil/icons/delete.png" alt="" width="14px"> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-number">
+                            <span class="moins">-</span>
+                            <span class="number">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                        <div class="prices"> <span>$5.00</span></div>
+                    </div>
+                    <div class="element-shop-cart2">
+                        <div class="flex">
+                            <img src="img-acceuil/product-img-2.png" alt="" width="64px">
+                            <div>
+                                <h5>NutriChoice Digestive</h5>
+                                <small>250g</small>
+                                <div>
+                                    <a href="#"> <img src="img-acceuil/icons/delete.png" alt="" width="14px"> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-number">
+                            <span class="moins">-</span>
+                            <span class="number">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                        <div class="prices">
+                             <span class="red">$20.00</span>
+                             <span class="underline">$26.00</span>
+                        </div>
+                    </div>
+                    <div class="element-shop-cart2">
+                        <div class="flex">
+                            <img src="img-acceuil/product-img-3.png" alt="" width="64px">
+                            <div>
+                                <h5>Cadbury 5 Star Chocolate</h5>
+                                <small>1 kg</small>
+                                <div>
+                                    <a href="#"> <img src="img-acceuil/icons/delete.png" alt="" width="14px"> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-number">
+                            <span class="moins">-</span>
+                            <span class="number">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                        <div class="prices">
+                            <span>$15.00</span>
+                            <span class="underline">$20.00</span>
+                        </div>
+                    </div>
+                    <div class="element-shop-cart2">
+                        <div class="flex">
+                            <img src="img-acceuil/product-img-4.png" alt="" width="64px">
+                            <div>
+                                <h5>Onion Flavour Potato</h5>
+                                <small>250g</small>
+                                <div>
+                                    <a href="#"> <img src="img-acceuil/icons/delete.png" alt="" width="14px"> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-number">
+                            <span class="moins">-</span>
+                            <span class="number">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                        <div class="prices">
+                            <span>$15.00</span>
+                            <span class="underline">$20.00</span>
+                        </div>
+                    </div>
+                    <div class="element-shop-cart2">
+                        <div class="flex">
+                            <img src="img-acceuil/product-img-5.png" alt="" width="64px">
+                            <div>
+                                <h5>Salted Instant Popcorn</h5>
+                                <small>100g</small>
+                                <div>
+                                    <a href="#"> <img src="img-acceuil/icons/delete.png" alt="" width="14px"> Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-number">
+                            <span class="moins">-</span>
+                            <span class="number">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                        <div class="prices"> 
+                            <span>$15.00</span>
+                            <span class="underline">$25.00</span>
+                        </div>
+                    </div>
+                    <div class="links-slide-shop">
+                        <a href="#" class="green">Continue Shopping</a>
+                        <a href="#" class="dark">Update Cart</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </header>
+    <main>
+        <section>
+            <div class="contenair-wishlist">
+                <div class="head-section">
+                    <a href="#">Home</a>
+                    <li>/</li>
+                    <a href="#">Shop</a>
+                    <li>/</li>
+                    <li>My Wishlist</li>
+                </div>
+                <div class="cont-wishlist">
+                    <h1>My Wishlist</h1>
+                    <p>There are 5 products in this wishlist.</p>
+                </div>
+                <div class="tableau">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox"  id="checkall"></th>
+                                <th></th>
+                                <th>Product</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                                <th>Remove</th>
+                            </tr>
+                            
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" id="checkbox2"></td>
+                                <td><img src="img-shop-wishlist/product-img-18.jpg" alt="banana" width="64px"></td>
+                                <td>
+                                    <div>
+                                        <a href="#">Organic Banana</a>
+                                        <small>$.98 / ib</small>
+                                    </div>
+                                </td>
+                                <td class="price">$35.00</td>
+                                <td><span>In Stock</span></td>
+                                <td><button>Add to Cart</button></td>
+                                <td><a href="#"><img src="img-acceuil/icons/delete.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" id="checkbox3"></td>
+                                <td><img src="img-shop-wishlist/product-img-17.jpg" alt="kiwi" width="64px"></td>
+                                <td>
+                                    <div>
+                                        <a href="#">Fresh Kiwi</a>
+                                        <small>4 no</small>
+                                    </div>
+                                </td>
+                                <td class="price">$20.97</td>
+                                <td><span class="btn">Out of Stock</span></td>
+                                <td><button class="btn">Contact us</button></td>
+                                <td><a href="#"><img src="img-acceuil/icons/delete.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" id="checkbox4"></td>
+                                <td><img src="img-shop-wishlist/product-img-16.jpg" alt="ananas" width="64px"></td>
+                                <td>
+                                    <div>
+                                        <a href="#">Golden Pineapple</a>
+                                        <small>2 no</small>
+                                    </div>
+                                </td>
+                                <td class="price">$35.00</td>
+                                <td><span>In Stock</span></td>
+                                <td><button>Add to Cart</button></td>
+                                <td><a href="#"><img src="img-acceuil/icons/delete.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" id="checkbox5"></td>
+                                <td><img src="img-shop-wishlist/product-img-19.jpg" alt="banana" width="64px"></td>
+                                <td>
+                                    <div>
+                                        <a href="#">BeatRoot</a>
+                                        <small>1 kg</small>
+                                    </div>
+                                </td>
+                                <td class="price">$29.00</td>
+                                <td><span>In Stock</span></td>
+                                <td><button>Add to Cart</button></td>
+                                <td><a href="#"><img src="img-acceuil/icons/delete.png" alt=""></a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" id="checkbox6"></td>
+                                <td><img src="img-shop-wishlist/product-img-15.jpg" alt="apple" width="64px"></td>
+                                <td>
+                                    <div>
+                                        <a href="#">Fresh Apple</a>
+                                        <small>2 kg</small>
+                                    </div>
+                                </td>
+                                <td class="price">$70.00</td>
+                                <td><span>In Stock</span></td>
+                                <td><button>Add to Cart</button></td>
+                                <td><a href="#"><img src="img-acceuil/icons/delete.png" alt=""></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+     <!-- ============================== location popup ============================== -->
+     <div class="popup-location" id="popup-location">
+        <div class="popup-location-inner">
+            <div class="head-popup">
+                <div>
+                    <h3>Choose your Delivery Location</h3>
+                    <p>Enter your address and we will specify the offeryou area.</p>
+                </div>
+                <a href="#" class="modal-close">&times;</a>
+            </div>
+            <div class="search-bar-popup">
+                <input type="search" placeholder="Search your area">
+            </div>
+            <div class="popup-content">
+                <h5>Select Location</h5>
+                <a href="#popup-location">Clear All</a>
+            </div>
+            <div class="popup-links">
+                <div>
+                    <a href="#" class="active"> <span>Alabama</span> <span class="price">Min:$20</span> </a>
+                    <a href="#"> <span>Alaska</span> <span class="price">Min:$30</span> </a>
+                    <a href="#"> <span>Arizona</span> <span class="price">Min:$50</span> </a>
+                    <a href="#"> <span>California</span> <span class="price">Min:$29</span> </a>
+                    <a href="#"> <span>Colorado</span> <span class="price">Min:$80</span> </a>
+                    <a href="#"> <span>Florida</span> <span class="price">Min:$90</span> </a>
+                    <a href="#"> <span>Arizona</span> <span class="price">Min:$50</span> </a>
+                    <a href="#"> <span>California</span> <span class="price">Min:$29</span> </a>
+                    <a href="#"> <span>Colorado</span> <span class="price">Min:$80</span> </a>
+                    <a href="#"> <span>Florida</span> <span class="price">Min:$90</span> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================== location popup ============================== -->
+    <div class="popup-signup" id="signup">
+        <div class="popup-signup-inner">
+            <div class="head-popup-signup">
+                <div>
+                    <h3>Sign Up</h3>
+                </div>
+                <a href="#" class="modal-close">&times;</a>
+            </div>
+            <section class="content-popup-signup">
+                <form action="" method="post">
+                    <div>
+                        <label for="name">Name</label>
+                        <div class="search-bar-popup">
+                            <input type="text" id="name" placeholder="Enter your Name" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="mail">Email address</label>
+                        <div class="search-bar-popup">
+                            <input type="email" id="mail" placeholder="Enter your Email Adress" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <div class="search-bar-popup">
+                            <input type="password" id="password" placeholder="Enter your Name" required>
+                        </div>
+                        <small>By Signup, you agree to our <a href="#">Teams of Service <small>&</small> Privacy Policy</a></small>
+                    </div>
+                    <div>
+                        <input type="submit" value="Sign Up">
+                    </div>
+                </form>
+            </section>
+            <div class="footer-popup-signup">
+                <p>Already have an account? </p>
+                <a href="#">Sign In</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <section class="contenair">
+            <div class="row">
+                <div class="column1">
+                    <ul>
+                        <h4>Categories</h4>
+                        <a href="#">Vegetables & Fruits</a>
+                        <a href="#">Breakfasts & instant food</a>
+                        <a href="#">Bekery & Biscuits</a>
+                        <a href="#">Atta, rice & dal</a>
+                        <a href="#">Sauces & spreads</a>
+                        <a href="#">Organic & gourmet</a>
+                        <a href="#">Baby care</a>
+                        <a href="#">Cleaning essentials</a>
+                        <a href="#">Personal care</a>
+                    </ul>
+                </div>
+                    <div class="column1 t">
+                        <ul>
+                            <a href="#">Dairy, bread & eggs</a>
+                            <a href="#">Cold drinks & juices</a>
+                            <a href="#">Tea, coffee & drinks</a>
+                            <a href="#">Masala, oil & more</a>
+                            <a href="#">Chicken, meat & fish</a>
+                            <a href="#">Paan corner</a>
+                            <a href="#">Pharma & wellness</a>
+                            <a href="#">Home & office</a>
+                            <a href="#">Pet care</a>
+                        </ul>
+                    </div>
+                
+                <div class="column1">
+                    <ul>
+                        <h4>Get to now us</h4>
+                        <a href="#">Compagny</a>
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">Our Value</a>
+                    </ul>
+                </div>
+                <div class="column1">
+                    <ul>
+                        <h4>For Consumers</h4>
+                        <a href="#">Payments</a>
+                        <a href="#">Shipping</a>
+                        <a href="#">Products Returns</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Shop Checkout</a>
+                    </ul>
+                </div>
+                <div class="column1">
+                    <ul>
+                        <h4>Become a Shopper</h4>
+                        <a href="#">Shopper Opportunities</a>
+                        <a href="#">Become a Shopper</a>
+                        <a href="#">Earnings</a>
+                        <a href="#">Ideas & Guides</a>
+                        <a href="#">New Retailers</a>
+                    </ul>
+                </div>
+                <div class="column1">
+                    <ul>
+                        <h4>FreshCart programs</h4>
+                        <a href="#">FreshCart programs</a>
+                        <a href="#">Gift Cards</a>
+                        <a href="#">Promos & Coupons</a>
+                        <a href="#">Fresh Ads</a>
+                        <a href="#">Careers</a>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="plateforms">
+            <div class="content-plateforms">
+                <div class="Payments">
+                    <h5>Payement Partners</h5>
+                    <a href="#"><img src="img-acceuil/icons/amazon-pay.png" alt="" width="40px"></a>
+                    <a href="#"><img src="img-acceuil/icons/american-express.png" alt=""></a>
+                    <a href="#"><img src="img-acceuil/icons/business.png" alt=""></a>
+                    <a href="#"><img src="img-acceuil/icons/pay-pal.png" alt=""></a>
+                    <a href="#"><img src="img-acceuil/icons/visa.png" alt=""></a>
+                </div>
+                <div class="store-app">
+                    <h5>Get deliveries with FreshCart</h5>
+                    <div>
+                        <a href="#"><img src="img-acceuil/icons/applestore.png" alt="" width="130px"></a>
+                        <a href="#"><img src="img-acceuil/icons/btn-playstore.png" alt="" width="130px"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="copyright">
+            <div class="content-copyright">
+                <div class="foot-left">
+                    <p>&copy; 2022 - 2024 FreshCart eCommerce HTML Template.All rights reserved. Powered by <br><a href="#">Codescandy</a></p>
+                </div>
+                <div class="foot-right">
+                    <li>Follow us on</li>
+                    <a href="https://www.facebook.com" target="_blank"> <img src="img-acceuil/icons/facebook.png" alt="facebook"></a>
+                    <a href="https://www.twitter.com" target="_blank"> <img src="img-acceuil/icons/twitter.png" alt="twitter"></a>
+                    <a href="https://www.instagram.com" target="_blank"> <img src="img-acceuil/icons/instagram.png" alt="instagram"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
