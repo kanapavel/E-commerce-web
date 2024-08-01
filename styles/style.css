@@ -712,44 +712,46 @@ section .slider {
 }
 /* elements categories */
 .contenair-categories{
-    display: flex;
-    height: 40vh;
+    padding: 40px 0;
+    max-width: 85%;
+    min-height: 50vh;
     width: 85%;
     margin: auto;
-    margin-bottom: 20px;
     overflow: hidden;
 }
-.contenair-categories >.card-1{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px;
-    justify-content: space-around;
-    align-items: center;
-    padding: 16px;
-    margin: auto;
-    width: 100%;
-    height: 40vh;
-    gap: 15px;
+.contenair-categories input[type="radio"]{
+    display: none;
 }
-section .contenair-categories >div{
-    width: 100%;
-    height: 100%;
+.contenair-categories .main-card{
+    width: 200%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 3s ease all;
 }
-section .contenair-categories >div a{
+.contenair-categories .main-card .cards{
+    width: calc(100% / 2 - 10px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+section .contenair-categories .main-card .cards div{
+   width: calc(100% / 6 - 10px);
+   background-color: white;
+   border-radius: 10px;
+}
+section .contenair-categories .main-card .cards div a{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
     background-color: white;
     padding: 30px 16px;
     border: 1px solid #dfdfdfc0;
     border-radius: 5px;
-    animation: sec1-slide2 25s infinite ease-in-out;
 }
 section .contenair-categories a p{
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     margin-top: 10px;
 }
@@ -760,9 +762,12 @@ section .contenair-categories a img{
     width: 120px;
     height: 120px;
 }
-section .contenair-categories a:hover{
+section .contenair-categories .main-card .cards div a:hover{
     border: 1px solid #2ac208;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#radio-btn2:checked ~ .main-card{
+    margin-left: -100%;
 }
 /* ----------------------------slide feauture categorie-------------------- */
 section .Feature-categorie {
@@ -778,7 +783,7 @@ section .Feature-categorie {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 35vh;
+    min-height: 35vh;
     width: 50%;
     border-radius: 10px;
 }
@@ -814,7 +819,7 @@ section .Feature-categorie {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 35vh;
+    min-height: 35vh;
     width: 50%;
     border-radius: 10px;
     flex-shrink: 0;
@@ -836,6 +841,10 @@ section .Feature-categorie {
     margin-top: 20px;
     box-sizing: border-box;
 
+}
+.Popular-products-head{
+    display: flex;
+    justify-content: space-between;
 }
 .Popular-products-head h1{
     font-size: 1.8em;
@@ -944,26 +953,31 @@ section .Feature-categorie {
 }
 /* --------------------------section best seller--------------------------------------------------- */
 .contenair-best-sell{
-    height: 100%;
+    min-height: 100%;
     width: 85%;
     margin: auto;
     margin-top: 20px;
     box-sizing: border-box;
 }
 .box-best-sell{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 400px;
-    gap: 15px;
-    overflow: auto;
+    display: flex;
+    justify-content: space-between;
 }
-.box-best-sell::-webkit-scrollbar{
-    height: 10px;
-    margin-top: 10px;
+.cards2{
+    display: flex;
+    gap: 10px;
+    min-width: 500px;
+    width: 700px;
+    overflow: hidden;
+    padding: 5px;
 }
-.box-best-sell::-webkit-scrollbar-thumb{
-    background-color: #dcdddb;
-    border-radius: 10px;
+.box-best-sell input[type="radio"]{
+    display: none;
+}
+.box1-sell-best {
+    min-width: 49%;
+    height: 100%;
+    transition: all 1s ease;
 }
 .box1-sell{
     background-image: url(../img-acceuil/banner-deal.jpg);
@@ -971,8 +985,10 @@ section .Feature-categorie {
     background-repeat: no-repeat;
     background-position: left;
     height: 75vh;
-    width: 250px;
+    min-width: 280px;
+    width: 500px;
     border-radius: 10px;
+    margin-right: 20px;
 }
 .card1-sell{
     padding: 30px;
@@ -998,6 +1014,10 @@ section .Feature-categorie {
 .card1-sell>a:hover{
     background-color: #0d7c0d;
 }
+#btn-best2:checked ~ .cards2 >.box1-sell-best:nth-child(1){
+    margin-left: -51%;
+}
+
 /* ------------------------------- */
 .box-sell-content .etoiles-sell{
     display: flex;
@@ -1037,8 +1057,8 @@ section .Feature-categorie {
     background-color: #1c921c;
 }
 .box-best-sell .icon-hover{
-    top:170px;
-    left: 30%;
+    top:140px;
+    left: 35%;
     right: 20%;
 }
 /* ---------------- section before footer --------  */
@@ -1682,19 +1702,19 @@ section .Feature-categorie {
 }
 .popup-view-inner .view-left #img1:checked ~ .m1{
     margin-left: 0;
-    transition: all 1s ease-in-out;
+    transition: all 1s ease;
 }
-.popup-view-inner .view-left #img2:checked ~ .m2{
+.popup-view-inner .view-left #img2:checked ~ .m1{
     margin-left: -100%;
-    transition: all 1s ease-in-out;
+    transition: all 1s ease;
 }
-.popup-view-inner .view-left #img3:checked ~ .m3{
+.popup-view-inner .view-left #img3:checked ~ .m1{
     margin-left: -200%;
-    transition:  1s ease-in-out;
+    transition:  1s ease;
 }
-.popup-view-inner .view-left #img4:checked ~ .m4{
+.popup-view-inner .view-left #img4:checked ~ .m1{
     margin-left: -300%;
-    transition:  1s ease-in-out;
+    transition:  1s ease;
 }
 .view-left .dots{
     display: flex;
@@ -2013,26 +2033,13 @@ h5{
         left: 30%;
         /* display: none; */
     }
-    section .contenair-categories a{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 410px;
-        height: 220px;
-        gap: 0px;
-    }
-    .contenair-categories >.card-1{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 200px;
-        justify-content: space-around;
-        align-items: center;
-        padding: 16px;
-        margin: auto;
-        width: 100%;
-        height: 40vh;
-        gap: 15px;
+    section .contenair-categories .main-card .cards div{
+        width: calc(100% / 3 - 10px);
+     }
+}
+@media screen and (max-width:1130px) {
+    .etoiles-sell>div{
+        margin-left: 30px;
     }
 }
 @media screen and (min-width:1110px) and (max-width:1250px) {
@@ -2112,20 +2119,6 @@ h5{
     .head-categorie{
         padding: 0 30px;
     }
-    .contenair-categories{
-        height: 40vh;
-    }
-    .contenair-categories >.card-1{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: space-around;
-        align-items: center;
-        padding: 16px;
-        margin: auto;
-        width: 100%;
-        height: 100%;
-        gap: 15px;
-    }
     .slide{
         background-image: url(../img-acceuil/slide-1.jpg);
         background-size: cover;
@@ -2174,17 +2167,11 @@ h5{
     .popup-view-inner .view-left{
         width: 100%;
     }
-    
+    section .contenair-categories .main-card .cards div{
+        width: calc(100% / 2 - 10px);
+     }
 }
 @media screen and (max-width:1060px) {
-    .box1-sell{
-        width: 320px;
-        height: 100%;
-    }
-    .box1-sell-best{
-        width: 320px;
-        height: 100%;
-    }
     .slide-bar{
         width: 100%;
         height: 100%;
@@ -2212,5 +2199,47 @@ h5{
     }
     .popup-view-inner{
         height: 150vh;
+    }
+    .box-best-sell{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .cards2{
+        display: flex;
+        gap: 10px;
+        min-width: 50%;
+        width: 100%;
+    }
+    .box1-sell-best {
+        min-width: 49%;
+    }
+    .box1-sell{
+        min-width: 280px;
+        width: 100%;
+        margin-right: 20px;
+    }
+    #btn-best2:checked ~ .cards2 >.box1-sell-best:nth-child(1){
+        margin-left: -50%;
+    }
+}
+@media screen and (max-width:600px) {
+    .cards2{
+        display: flex;
+        gap: 10px;
+        min-width: 50%;
+        width: 100%;
+        width: calc(100% / 2 -10px);
+    }
+    .box1-sell-best {
+        min-width: 100%;
+    }
+    .box1-sell{
+        min-width: 280px;
+        width: 100%;
+        margin-right: 20px;
+    }
+    #btn-best2:checked ~ .cards2 >.box1-sell-best:nth-child(1){
+        margin-left: -102%;
     }
 }
