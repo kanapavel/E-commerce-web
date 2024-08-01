@@ -1,3 +1,14 @@
+@keyframes slidein {
+    from {
+      translate: 0 5vw;
+      scale: 20% ;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+}
 *{
     margin: 0;
     padding: 0;
