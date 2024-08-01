@@ -37,11 +37,13 @@ section{
     align-items: center;
     margin: 50px 0;
 }
-.card-left {
+.card-left{
+    background-image: url(../img-acceuil/signup-g.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 300px;
-}
-.card-left img{
-    width: 300px;
+    height: 300px;
 }
 .card-right{
     width: 410px;
