@@ -31,6 +31,14 @@ header{
     margin: 80px 0;
     height: 50vh;
 }
+.card-left{
+    width: 400px;
+    height: 400px;
+    background-image: url(../img-home4/signin-g.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .card-right{
     width: 350px;
     margin-left: 70px;
