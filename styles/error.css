@@ -69,8 +69,13 @@ section{
 .content .card1 div a.bleu:hover{
     background-color: rgb(12, 47, 92);
 }
-.card2 img{
+.card2{
     width: 380px;
+    background-image: url(../img-acceuil/error.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
 }
 /* ------------------------------------------ responsive -------------------------- */
 @media screen and (max-width:1050px) {
